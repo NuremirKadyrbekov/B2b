@@ -1,0 +1,122 @@
+.navbar {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+}
+
+.navbar_container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #ff00b7;
+}
+
+.search_block input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 460px;
+    max-width: 100%;
+    font-size: 14px;
+}
+
+.menu_icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar_links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 99999;
+}
+
+.navbar_links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(223, 219, 219);
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+
+.navbar_links a:hover {
+    color: #ffffff;
+    /* transform: scale(1.05); */
+}
+
+.icon {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+/* ---- Адаптивка ---- */
+@media (max-width: 968px) {
+    .search_block {
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .navbar_links {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        flex-direction: column;
+        background-color: #1a1a2e;
+        width: 100px;
+        height: 100vh;
+        padding: 20px;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        /* z-index: 20; */
+    }
+
+    .navbar_links.active {
+        transform: translateX(0);
+        z-index: 99999;
+
+    }
+
+    .navbar_links a {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 5;
+        /* ниже, чем .navbar_links */
+    }
+
+}
