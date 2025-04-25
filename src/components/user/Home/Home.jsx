@@ -66,15 +66,28 @@ const Home = () => {
         { id: 10, img: product14, title: 'Чипсы Пир', price: '100 сом', oldPrice: '120 сом', discount: '100 грамм' },
         { id: 11, img: product15, title: 'Энергетик Flash', price: '100 сом', oldPrice: '120 сом', discount: '450 мл' },
         { id: 12, img: product16, title: 'Мыло Роса', price: '80 сом', oldPrice: '120 сом', discount: '250 грамм' },
-        
+
+        { id: 13, img: product5, title: 'Coca cola', price: '100 сом', oldPrice: '140 сом', discount: '1 литр' },
+        { id: 14, img: product6, title: 'Фанта', price: '90 сом', oldPrice: '120 сом', discount: '1 литр' },
+        { id: 15, img: product7, title: 'Дирол жевательная резина', price: '30 сом', oldPrice: '50 сом', discount: 'пачка' },
+        { id: 16, img: product8, title: 'Жевательная резинка Орбит Orbit', price: '30 сом', oldPrice: '45 сом', discount: 'пачка' },
+
+        { id: 17, img: product9, title: 'Чипсы Lays', price: '80 сом', oldPrice: '120 сом', discount: '120 грамм' },
+        { id: 18, img: product10, title: 'Чипсы Принглс', price: '120 сом', oldPrice: '140 сом', discount: '100 грамм' },
+        { id: 19, img: product11, title: 'Сухарики Хрусteam Королевский краб', price: '31 сом', oldPrice: '50 сом', discount: '60 грамм' },
+        { id: 20, img: product12, title: 'Сырок творожный Чудо ванильный', price: '35 сом', oldPrice: '50 сом', discount: '40 грамм' },
+        { id: 21, img: product13, title: 'Газированная вода Легенда', price: '35 сом', oldPrice: '45 сом', discount: '1 литр' },
+        { id: 22, img: product14, title: 'Чипсы Пир', price: '100 сом', oldPrice: '120 сом', discount: '100 грамм' },
+        { id: 23, img: product15, title: 'Энергетик Flash', price: '100 сом', oldPrice: '120 сом', discount: '450 мл' },
+        { id: 24, img: product16, title: 'Мыло Роса', price: '80 сом', oldPrice: '120 сом', discount: '250 грамм' },
     ];
 
-    const AddProduct =(id) =>{
+    const AddProduct = (id) => {
         let orders = JSON.parse(localStorage.getItem('products')) || []
-        let productToAdd = products.find(p=> p.id === id)
+        let productToAdd = products.find(p => p.id === id)
         console.log(productToAdd)
 
-        if(!productToAdd) return
+        if (!productToAdd) return
 
         let updatedOrders = [...orders, productToAdd]
         localStorage.setItem('products', JSON.stringify(updatedOrders))
@@ -96,13 +109,13 @@ const Home = () => {
 
 
 
-   
+
 
     return (
         <div className={Css.home_container}>
             {showSuccess && (
                 <div className={Css.success_popup}>
-                     Товар добавлен в корзину!
+                    Товар добавлен в корзину!
                 </div>
             )}
             <div className={Css.slider}>
@@ -123,13 +136,13 @@ const Home = () => {
           ))}
         </div> */}
                 <Slider {...settings}>
-                   {banners.map((img, id)=>{
+                    {banners.map((img, id) => {
                         return (
                             <div key={id} className={Css.slide}>
                                 <img src={img} alt={`Banner ${id}`} className={Css.slide_img} />
                             </div>
                         )
-                   })}
+                    })}
                 </Slider>
             </div>
             <div className={Css.products_grid}>
@@ -147,7 +160,7 @@ const Home = () => {
                                 <span className={Css.old_price}>{p.oldPrice}</span>
                             </div>
                         </div>
-                        <button className={Css.product_button} onClick={()=>AddProduct(p.id)} > В Корзину</button>
+                        <button className={Css.product_button} onClick={() => AddProduct(p.id)} > В Корзину</button>
                     </div>
                 ))}
             </div>
