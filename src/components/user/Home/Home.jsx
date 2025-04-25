@@ -14,7 +14,7 @@ import product6 from '../../assets/products/fanta.png';
 import product7 from '../../assets/products/dirol.png';
 import product8 from '../../assets/products/orbit.png';
 import product9 from '../../assets/products/lays.png';
-import product10 from '../../assets/products/lays.png';
+import product10 from '../../assets/products/prin.png';
 
 
 
