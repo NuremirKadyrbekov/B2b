@@ -25,7 +25,7 @@ function Navbar() {
                             <IoHome className={Css.icon} />
                             <span>Главная</span>
                         </Link>
-                        <Link to='' onClick={() => setMenuOpen(false)}>
+                        <Link to='del' onClick={() => setMenuOpen(false)}>
                             <FaBoxOpen className={Css.icon} />
                             <span>Доставка</span>
                         </Link>

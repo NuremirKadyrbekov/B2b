@@ -6,6 +6,7 @@ import RegisterForm from "./components/user/auth/RegisterForm";
 import Profile from "./components/user/profile/Profile";
 import Cart from "./components/user/Cart/Cart";
 import AddProduct from "./components/user/addNewProduct/AddNewProduct";
+import Del from "./components/user/delivery/Delivery";
 
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
           <Route path='profile' element={<Profile/>} />
           <Route path='cart' element={<Cart/>} />
           <Route path='new' element={<AddProduct/>} />
+          <Route path='del' element={<Del/>} />
+
 
         </Route>
       </Routes>

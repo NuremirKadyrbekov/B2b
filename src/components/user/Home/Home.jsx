@@ -5,16 +5,25 @@ import banner1 from '../../assets/banner1.jpg';
 import banner2 from '../../assets/banner2.png';
 import banner3 from '../../assets/banner3.png';
 import Slider from "react-slick";
-import product1 from '../../assets/products/1.png';
-import product2 from '../../assets/products/2.png';
-import product3 from '../../assets/products/3.png';
-import product4 from '../../assets/products/4.png';
+
 import product5 from '../../assets/products/cola.png';
 import product6 from '../../assets/products/fanta.png';
 import product7 from '../../assets/products/dirol.png';
 import product8 from '../../assets/products/orbit.png';
 import product9 from '../../assets/products/lays.png';
 import product10 from '../../assets/products/prin.png';
+import product11 from '../../assets/products/xrus.png';
+import product12 from '../../assets/products/12.png';
+import product13 from '../../assets/products/13.png';
+import product14 from '../../assets/products/14.png';
+import product15 from '../../assets/products/15.png';
+import product16 from '../../assets/products/16.png';
+
+
+
+
+
+
 
 
 
@@ -51,12 +60,12 @@ const Home = () => {
         { id: 4, img: product8, title: 'Жевательная резинка Орбит Orbit', price: '30 сом', oldPrice: '45 сом', discount: 'пачка' },
         { id: 5, img: product9, title: 'Чипсы Lays', price: '80 сом', oldPrice: '120 сом', discount: '120 грамм' },
         { id: 6, img: product10, title: 'Чипсы Принглс', price: '120 сом', oldPrice: '140 сом', discount: '100 грамм' },
-        { id: 7, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
-        { id: 8, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
-        { id: 9, img: product1, title: 'Гидрофильное масло', price: '591 ₽', oldPrice: '610 ₽', discount: 'ХОРОШАЯ ЦЕНА' },
-        { id: 10, img: product2, title: 'Умный Будильник', price: '2 804 ₽', oldPrice: '3 261 ₽', discount: '-11%' },
-        { id: 11, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
-        { id: 12, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
+        { id: 7, img: product11, title: 'Сухарики Хрусteam Королевский краб', price: '31 сом', oldPrice: '50 сом', discount: '60 грамм' },
+        { id: 8, img: product12, title: 'Сырок творожный Чудо ванильный', price: '35 сом', oldPrice: '50 сом', discount: '40 грамм' },
+        { id: 9, img: product13, title: 'Газированная вода Легенда', price: '35 сом', oldPrice: '45 сом', discount: '1 литр' },
+        { id: 10, img: product14, title: 'Чипсы Пир', price: '100 сом', oldPrice: '120 сом', discount: '100 грамм' },
+        { id: 11, img: product15, title: 'Энергетик Flash', price: '100 сом', oldPrice: '120 сом', discount: '450 мл' },
+        { id: 12, img: product16, title: 'Мыло Роса', price: '80 сом', oldPrice: '120 сом', discount: '250 грамм' },
         
     ];
 
