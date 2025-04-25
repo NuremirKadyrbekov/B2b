@@ -9,6 +9,19 @@ import product1 from '../../assets/products/1.png';
 import product2 from '../../assets/products/2.png';
 import product3 from '../../assets/products/3.png';
 import product4 from '../../assets/products/4.png';
+import product5 from '../../assets/products/cola.png';
+import product6 from '../../assets/products/fanta.png';
+import product7 from '../../assets/products/dirol.png';
+import product8 from '../../assets/products/orbit.png';
+import product9 from '../../assets/products/lays.png';
+import product10 from '../../assets/products/lays.png';
+
+
+
+
+
+
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -32,12 +45,12 @@ const Home = () => {
     };
 
     const products = [
-        { id: 1, img: product1, title: 'Гидрофильное масло', price: '591 ₽', oldPrice: '610 ₽', discount: 'ХОРОШАЯ ЦЕНА' },
-        { id: 2, img: product2, title: 'Умный Будильник', price: '2 804 ₽', oldPrice: '3 261 ₽', discount: '-11%' },
-        { id: 3, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
-        { id: 4, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
-        { id: 5, img: product1, title: 'Гидрофильное масло', price: '591 ₽', oldPrice: '610 ₽', discount: 'ХОРОШАЯ ЦЕНА' },
-        { id: 6, img: product2, title: 'Умный Будильник', price: '2 804 ₽', oldPrice: '3 261 ₽', discount: '-11%' },
+        { id: 1, img: product5, title: 'Coca cola', price: '100 сом', oldPrice: '140 сом', discount: '1 литр' },
+        { id: 2, img: product6, title: 'Фанта', price: '90 сом', oldPrice: '120 сом', discount: '1 литр' },
+        { id: 3, img: product7, title: 'Дирол жевательная резина', price: '30 сом', oldPrice: '50 сом', discount: 'пачка' },
+        { id: 4, img: product8, title: 'Жевательная резинка Орбит Orbit', price: '30 сом', oldPrice: '45 сом', discount: 'пачка' },
+        { id: 5, img: product9, title: 'Чипсы Lays', price: '80 сом', oldPrice: '120 сом', discount: '120 грамм' },
+        { id: 6, img: product10, title: 'Чипсы Принглс', price: '120 сом', oldPrice: '140 сом', discount: '100 грамм' },
         { id: 7, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
         { id: 8, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
         { id: 9, img: product1, title: 'Гидрофильное масло', price: '591 ₽', oldPrice: '610 ₽', discount: 'ХОРОШАЯ ЦЕНА' },
