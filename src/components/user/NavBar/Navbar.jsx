@@ -12,7 +12,7 @@ function Navbar() {
             <div className={Css.navbar}>
                 <div className={Css.navbar_container}>
                     <div className={Css.logo}>
-                        <h1>Shop<span>Zone</span></h1>
+                        <h1>My<span>Market</span></h1>
                     </div>
                     <div className={Css.search_block}>
                         <input type="text" placeholder="Поиск товаров..." />

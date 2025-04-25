@@ -36,6 +36,14 @@ const Home = () => {
         { id: 2, img: product2, title: 'Умный Будильник', price: '2 804 ₽', oldPrice: '3 261 ₽', discount: '-11%' },
         { id: 3, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
         { id: 4, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
+        { id: 5, img: product1, title: 'Гидрофильное масло', price: '591 ₽', oldPrice: '610 ₽', discount: 'ХОРОШАЯ ЦЕНА' },
+        { id: 6, img: product2, title: 'Умный Будильник', price: '2 804 ₽', oldPrice: '3 261 ₽', discount: '-11%' },
+        { id: 7, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
+        { id: 8, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
+        { id: 9, img: product1, title: 'Гидрофильное масло', price: '591 ₽', oldPrice: '610 ₽', discount: 'ХОРОШАЯ ЦЕНА' },
+        { id: 10, img: product2, title: 'Умный Будильник', price: '2 804 ₽', oldPrice: '3 261 ₽', discount: '-11%' },
+        { id: 11, img: product3, title: 'Сыворотка для лица от прыщей и постакне с ниацинамидом', price: '425 ₽', oldPrice: '439 ₽', discount: '40–47 РАЗМЕРЫ' },
+        { id: 12, img: product4, title: 'Кресло компьютерное игровое Optimum черный', price: '2 969 ₽', oldPrice: '3 810 ₽', discount: '-19%' },
         
     ];
 

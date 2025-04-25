@@ -1,0 +1,62 @@
+/* AddProduct.css */
+.add_product_container {
+    min-height: 9я0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, #e0c3fc, #8ec5fc); */
+    padding: 1rem;
+  }
+  
+  .add_product_form {
+    background: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .add_title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4c1d95;
+    margin-bottom: 1rem;
+  }
+  
+  .add_input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .add_prices {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  @media (min-width: 768px) {
+    .add_prices {
+      flex-direction: row;
+    }
+  }
+  
+  .add_button {
+    padding: 0.75rem;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .add_button:hover {
+    background: #4f46e5;
+  }
+  
